@@ -1,0 +1,48 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Final Distribution Point Coverage Analysis
+qgisMinimumVersion=3.0
+description=Optimize population coverage for humanitarian (cash,in-kind) distribution points.
+version=1.1.0
+author=Sebastian Pfau
+email=sebastian.pfau98@gmail.com
+license=GPL-2.0
+
+about=Optimize population coverage for distribution points.
+
+tracker=https://github.com/ksebipf-del/fdp_coverage/issues
+repository=https://github.com/ksebipf-del?tab=repositories
+homepage=https://github.com/ksebipf-del/fdp_coverage
+icon=icon.png
+
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python,analysis,coverage,population,worldpop,optimization,humanitarian
+
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+category=Analysis
+
+# If the plugin can run on QGIS Server.
+server=False
+
